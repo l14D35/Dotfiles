@@ -55,3 +55,7 @@ Trolltech.conf
 kate*
 kconf*
 startup*
+systemsettingsrc
+user-dirs*
+yad.conf
+baloofielrc
