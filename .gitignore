@@ -51,4 +51,7 @@ qt*/
 systemd/
 volumeicon/
 xfce4/
-
+Trolltech.conf
+kate*
+kconf*
+startup*
