@@ -241,6 +241,23 @@ exec --no-startup-id nm-applet
 exec --no-startup-id "nitrogen --restore"
 exec --no-startup-id "sleep 2s && kalu"
 # User modifications
+
+# #---Function Buttons---# #
+#bindsym $mod+F1 exec --no-startup-id $HOME/bin/dmenumount 
+#bindcode $mod+Shift+ exec dmenumount 
+#bindsym $mod+F3
+#bindsym $mod+F4
+#bindsym $mod+F5
+#bindsym $mod+F6
+#bindsym $mod+F7
+#bindsym $mod+F8
+bindsym $mod+F9 exec --no-startup-id $HOME/.scripts/i3cmds/dmenumount
+bindsym $mod+F10 exec --no-startup-id $HOME/.scripts/i3cmds/dmenuumount
+#bindsym $mod+F11
+#bindsym $mod+F12
+
+
+
 new_window pixel 1
 hide_edge_borders both
 # Screenshots
