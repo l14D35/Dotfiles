@@ -257,7 +257,7 @@ bindsym $mod+F10 exec --no-startup-id $HOME/.scripts/i3cmds/dmenuumount
 #bindsym $mod+F12
 
 # #---Execs---#  #
-exec_always --no-startup-id redshift -l 54.0:16.0
+exec --no-startup-id redshift -l 54.0:16.0
 
 new_window pixel 1
 hide_edge_borders both
