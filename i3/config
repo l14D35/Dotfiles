@@ -256,7 +256,8 @@ bindsym $mod+F10 exec --no-startup-id $HOME/.scripts/i3cmds/dmenuumount
 #bindsym $mod+F11
 #bindsym $mod+F12
 
-
+# #---Execs---#  #
+exec_always redshift -l 54.0:16.0
 
 new_window pixel 1
 hide_edge_borders both
@@ -275,12 +276,6 @@ exec --no-startup-id xinput set-prop 15 305 1
 
 # feh
 exec --no-startup-id feh --bg-scale ./Pictures/wallpapes/wallpaper.jpg
-# exec --no-startup-id DISPLAY=:0.0 feh --bg-scale ./Pictures/wallpapers/wallpaper.jpg
-# exec --no-startup-id DISPLAY=:0.1 feh --bg-scale ./Pictures/wallpapers/wallpaper.jpg
-
-
-# Turn on Night Shift
-# exec --no-startup-id redshift
 
 # Multi-moniotrs
 
@@ -289,10 +284,6 @@ bindcode 235 exec --no-startup-id ~/.screenlayout/layout-home.sh
 # Default monitor layout
 
 bindcode 202 exec --no-startup-id ~/.screenlayout/layout-default.sh
-
-#exec --no-startup-id multi-monitor
-#exec --no-startup-id multi-monitor
-#exec --no-startup-id disconnect-vga
 
 # Hibernate
 bindsym $mod+Escape exec --no-startup-id i3lock --color 475263 && systemctl suspend
