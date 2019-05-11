@@ -268,6 +268,9 @@ bindsym --release Shift+Print exec --no-startup-id scrot '/tmp/%F_%T_%wx%h.png' 
 # Turn on tapping on touchpad
 exec --no-startup-id xinput set-prop 15 305 1
 
+# fluxgui
+exec --no-startup-id fluxgui
+
 # Set wallpaper
 
 # nitrogen
