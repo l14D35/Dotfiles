@@ -131,7 +131,8 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+z exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
 # lock
-bindsym $mod+Shift+x exec --no-startup-id i3lock --color 475263
+#bindsym $mod+Shift+x exec --no-startup-id i3lock --color 475263
+bindsym $mod+Shift+x exec --no-startup-id i3lock -i ~/Pictures/wallpapers/lock.png
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -288,7 +289,8 @@ bindcode 235 exec --no-startup-id ~/.screenlayout/layout-home.sh
 bindcode 202 exec --no-startup-id ~/.screenlayout/layout-default.sh
 
 # Hibernate
-bindsym $mod+Escape exec --no-startup-id i3lock --color 475263 && systemctl suspend
+#bindsym $mod+Escape exec --no-startup-id i3lock --color 475263 && systemctl suspend
+bindsym $mod+Escape exec --no-startup-id i3lock -i ~/Pictures/wallpapers/lock.png && systemctl suspend
 
 # Colors
 client.focused			#f06e27 #285577 #ffffff #2e9ef4 #ffbc6b
