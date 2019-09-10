@@ -9,9 +9,6 @@ calibre/
 galculator/
 gconf/
 goa-1.0/
-g*/
-[kK]*/
-l*/
 matplotlib/
 plank/
 qutebrowser/
@@ -24,7 +21,6 @@ ranger/
 transmission/
 tint2/
 plasma*
-gtk*
 QtProject.conf
 Trilltech.conf
 VirtualBox/
